@@ -1,20 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
     >
 
-  <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Hello World!"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintLeft_toLeftOf="parent"
-      app:layout_constraintRight_toRightOf="parent"
-      app:layout_constraintTop_toTopOf="parent"
-      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:context=".MainActivity"
+      >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/baselineBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BaseLine对齐"
+        />
+    <Button
+        android:id="@+id/weightLayoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="权重布局"
+        />
+    <Button
+        android:id="@+id/circlePositionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="角度布局"
+        />
+    <Button
+        android:id="@+id/goneMarginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GoneMargin布局"
+        />
+    <Button
+        android:id="@+id/chainStyleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ChainStyle"
+        />
+    <Button
+        android:id="@+id/ratioBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设定宽高比"
+        />
+    <Button
+        android:id="@+id/percentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="百分比布局"
+        />
+    <Button
+        android:id="@+id/guideLineBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GuideLine辅助布局"
+        />
+    <Button
+        android:id="@+id/groupBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group辅助布局"
+        />
+    <Button
+        android:id="@+id/layerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layer辅助布局"
+        />
+    <Button
+        android:id="@+id/barrierBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置屏障"
+        />
+    <Button
+        android:id="@+id/customHelperBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义动画 Helper"
+        />
+    <Button
+        android:id="@+id/placeHolderBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PlaceHolder"
+        />
+    <Button
+        android:id="@+id/flowBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flow布局"
+        />
+    <Button
+        android:id="@+id/animateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动画效果"
+        />
+
+  </LinearLayout>
+
+</ScrollView>

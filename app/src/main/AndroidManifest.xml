@@ -16,6 +16,21 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:name=".BaseLineAlignActivity"/>
+    <activity android:name=".WeightLayoutActivity"/>
+    <activity android:name=".CirclePositionActivity"/>
+    <activity android:name=".GoneMarginActivity"/>
+    <activity android:name=".ChainStyleActivity"/>
+    <activity android:name=".RatioActivity"/>
+    <activity android:name=".PercentActivity"/>
+    <activity android:name=".GuideLineActivity"/>
+    <activity android:name=".GroupActivity"/>
+    <activity android:name=".LayerActivity"/>
+    <activity android:name=".BarrierActivity"/>
+    <activity android:name=".CustomHelperActivity"/>
+    <activity android:name=".PlaceHolderActivity"/>
+    <activity android:name=".FlowActivity"/>
+    <activity android:name=".AnimateActivity"/>
   </application>
 
 </manifest>
